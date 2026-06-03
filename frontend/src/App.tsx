@@ -6,7 +6,7 @@ type Todo = {
   completed: boolean;
 };
 
-const API_BASE = 'http://localhost:8080/api/todos';
+const API_BASE = 'http://localhost:8081/api/todos';
 
 function App() {
   const [todos, setTodos] = useState<Todo[]>([]);
