@@ -40,3 +40,13 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Node.js
+node_modules/
+
+# Vite build output
+dist/
+
+# Generated JS
+frontend/src/*.js
+frontend/src/*.js.map
